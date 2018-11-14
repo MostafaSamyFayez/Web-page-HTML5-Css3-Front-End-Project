@@ -1,0 +1,634 @@
+*
+{
+    padding:0;
+    margin:0;
+}
+body
+{
+}
+.nav p
+{
+    font-family: "Arial";
+    font-weight: 600;
+    font-size: 80%;
+    color:aliceblue;
+}
+.nav ul
+{
+    list-style-type: none;
+    overflow: hidden;
+    padding-top: 20px;
+}
+.nav ul li
+{
+    float: right; 
+    padding: 15;
+}
+.nav ul li a
+{
+    color: #fff;
+    font-size: 18px;
+    text-decoration: none;
+}
+.nav button
+{
+    margin-right: 70px;
+    padding: 12px 20px;
+    border-radius: 3px;
+    font-size: 14px;
+    background-color:white;
+    border: none;
+}
+.nav .contact
+{
+    padding-top: 3px;
+}
+.nav img
+{
+    height: 35px;
+}
+.nav .logo
+{
+    float: left;
+    margin-left:50px;
+    padding-top: 8px;
+    padding-left: 19px;
+}
+.home
+{
+    background-image:
+  linear-gradient(to bottom, rgba(0,0,0,0.7), rgba(0,0,0,0.7)),url(business-2.jpg);
+    background-size:100% 102%;
+    height: 900px;
+}
+.home .basic
+{
+    text-align: center;
+    color: aliceblue;
+    width: 75%;
+    text-align: center;
+    margin: 0 auto;
+    padding-top: 230px;
+}
+.basic h1
+{
+    font-family: "Arial";
+    color: aliceblue;
+    font-size: 320%;
+    font-weight: 400;
+}
+.basic h3
+{
+    font-family: "Arial";
+    color: aliceblue;
+    padding-bottom: 50px;
+    font-weight: 200;
+    font-size: 130%;
+}
+.basic button
+{
+    margin-right: 70px;
+    padding: 18px 28px;
+    border-radius: 3px;
+    font-size: 14px;
+    background-color:rgb(80,180,80);
+    color: white;
+    border: none;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+
+
+.clr
+{
+clear: both;    
+}
+
+
+
+        /*      End layer one (Home)     */
+
+
+
+.layer2
+{
+    height: 200px;   
+    padding-top: 100px;
+}
+.layer2 .part
+{
+    float: left;
+    width: 33.33%;
+    height: 100%;
+}
+
+.layer2 .part .box
+{
+    height: 100%;
+    width: 12%;
+    float: left;
+    padding-left: 20px;
+}
+.layer2 .part .text
+{
+    width: 88%;
+}
+.layer2 .part .box img
+{
+    width: 100%;
+    height: 20%;
+}
+
+.layer2 .part .text p
+{
+    color: gray;
+    font-family: "Open Sans";
+    font-weight: 100;
+    line-height: 1.86em;
+}
+.layer2 .part .text h5
+{
+    font-family: "Open Sans";
+    font-size: 18px;
+    font-weight: 300;
+}
+
+
+                    /*      End layer Two      */
+
+.services
+{
+    height: 900px;
+    background-color: ghostwhite;
+}
+.services h3
+{
+    text-align: center;
+}
+.services p
+{
+    text-align: center;
+    padding-bottom: 100px;
+}
+.services .part p
+{
+    text-align: left;
+    padding: 0;
+    margin: 0;
+}
+.services .align
+{
+    margin:0 auto;
+    width: 92%;
+    height: 55%;
+    background-color: ghostwhite;
+    margin-bottom: 100px;
+}
+.services .part
+{
+    width: 30%;
+    height: 100%;
+    float: left;
+    margin: 17;
+    background-color: white;
+}
+.services .part img
+{
+    width: 93%;
+    height: 50%;
+    text-align: center;
+}
+.services h3
+{
+    font-family: "Open Sans";
+    font-size: 220%;
+    font-weight: 300;
+    color:rgb(50,50,50);
+    padding-bottom: 30px;
+    padding-top: 100px;
+}
+.services .ser
+{
+    color: dimgray;
+    font-family: "Open Sans";
+    font-weight: 500;
+    padding: 0;
+    padding-bottom: 40px;
+    font-size: 130%;
+}
+.services h6
+{
+    font-family: "Open Sans";
+    padding-top: 30px;
+    text-decoration: none;
+    font-size: 19px;
+    font-weight: 400;
+    margin-bottom: 8px;
+    color: rgb(50,50,50);
+    padding-left: 25px;
+}
+.services a
+{
+    text-decoration: none;
+    padding-left: 25px;
+    color: gray;
+}
+.services .part p
+{
+    line-height: 1.86em;
+    color: dimgray;
+    font-family: "Open Sans";
+    padding-left: 25px;
+    padding-bottom: 10px;
+    
+}
+
+
+                /*      End layer Three (Services)    */
+
+.secret
+{
+    height: 700px;
+}
+.secret .photo
+{
+    width: 40%;
+    float: right;
+    margin: 5%;
+    padding-top: 1%;
+    margin-left: 0;
+    height: 75%;
+    
+}
+.secret .photo img
+{
+    width: 100%;
+    height: 100%;
+    
+}
+.secret .oursecret
+{
+    width: 43%;
+    float: right;
+    padding: 5%;
+    padding-top: 12%;
+}
+
+.secret .oursecret h3
+{
+    
+    font-family: "Open Sans";
+    font-size: 180%;
+    color: rgb(50,50,50);
+    font-weight:300;
+    margin-bottom: 5%;
+    
+}
+
+.secret .oursecret p
+{
+    font-family: "Open Sans";
+    font-size: 98%;
+    color: gray;
+    font-weight:300;
+}
+
+.secret .oursecret .p2
+{
+    font-family: "Open Sans";
+    font-size: 100%;
+    color: gray;
+    font-weight:300;
+    margin-top: 5%;
+    float:left;
+    margin-right: 15%;
+    line-height: 2.4em;
+}
+.secret .oursecret .t-img
+{
+    float: left;
+    margin-top: 5%;
+}
+
+
+.secret .oursecret button
+{
+    padding: 14px 24px;
+    border-radius: 3px;
+    font-size: 12px;
+    background-color:rgb(80,180,80);
+    color: white;
+    border: none;
+    margin: 0 auto;
+    margin-top: 50px;
+    font-weight: 600;
+    font-family:"Open Sans";
+    margin-left: 25;
+}
+
+
+              /*       End layer Four (Our secret)        */
+
+.comment
+{
+    height: 600px;
+    background-color: ghostwhite;
+}
+.comment .part
+{
+    height: 30%;
+    width: 30%;
+    float: left;
+    margin: 1%;
+    background-color: white;
+    
+    
+}
+.comment .align
+{
+    width: 90%;
+    margin: 7%;
+    margin-top: 0.5%;
+}
+.comment
+{
+    text-align: center;
+}
+.comment img
+{
+    margin-top: 6%;
+}
+.comment p
+{
+    color: gray;
+    line-height: 1.86em;
+    padding: 5;
+}
+.comment .name
+{
+    margin-top: 20%;
+    margin-left: 0;
+    padding-left: 0;
+}
+.comment .name
+{
+    text-align: left;
+    margin-left: 30;
+    line-height: 0.2em;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+.comment .name h6
+{
+    font-family:"Open Sans";
+    color: rgb(50,50,50);
+    font-size: 90%;
+    font-weight: 300;
+}
+
+
+                   /*       End layer Five (Comment)        */
+
+
+
+.number
+{
+    height: 300;
+}
+.number .align .part
+{
+    float: left;
+    width: 18%;
+    text-align: center;
+    margin-left: 2%;
+    margin-right: 5%;
+    
+}
+.number .align
+{
+    margin-left: 16%;
+    background-color: azure;
+    margin: 0 auto;
+    width: 80%;
+}
+.number img
+{
+    margin-left: 12%;
+    margin-top: 3%;
+}
+.number h2
+{
+    font-size: 300%;
+    font-family:"Open Sans";
+    font-weight: 300;
+    color: rgb(50,50,50);
+}
+.number p
+{
+    font-family:"Open Sans";
+    font-weight: 100;
+    color:dimgray;
+}
+
+                   /*       End layer six (number)        */
+
+.value button
+{
+    padding: 14px 24px;
+    border-radius: 3px;
+    font-size: 12px;
+    background-color:rgb(80,180,80);
+    color: white;
+    border: none;
+    margin: 0 auto;
+    margin-top: 50px;
+    font-weight: 600;
+    font-family:"Open Sans";
+    margin-left: 0;
+}
+.value
+{
+    background-image:linear-gradient(to bottom, rgba(0,0,0,0.3), rgba(0,0,0,0.3)),url(full-2.jpg);
+    background-size: 100% 100%;
+    height: 482px;
+    text-align: center;
+}
+.value .part
+{
+    width: 50%;
+    margin: auto auto;
+    padding-top:10%; 
+}
+.value h2
+{
+    
+    font-size: 200%;
+    font-family:"Open Sans";
+    font-weight: 300;
+    color: white;
+    margin-bottom: 4%;
+
+}
+.value p
+{
+    color: whitesmoke;
+    font-family:"Open Sans";
+    line-height: 1.8em;
+    font-size: 110%;
+}
+
+
+
+
+
+                /*       End layer seven (value)        */
+
+
+.services2 .services
+{
+    background-color: white;
+    height: 700;
+}
+.services2 .services .align
+{
+     background-color: white;
+     height: 50%;
+}
+
+                  /*       End layer eight (services2)        */
+
+.logos
+{
+    height: 230px;
+    background-image: url(ser2.PNG);
+    background-size: 100% 100%;
+}
+
+
+                 /*       End layer nine (services2)        */
+
+
+
+.contact2 button
+{
+    margin-right: 70px;
+    padding: 24px 24px;
+    border-radius: 4px;
+    font-size: 14px;
+    background-color:white;
+    color:rgb(30,30,30);
+    border: none;
+    margin: 0 auto;
+    font-weight: 600;
+    font-size: 70%;
+    
+}
+.contact2
+{
+background-color:rgb(70,170,70);
+    height: 200px;
+}
+.contact2 h2
+{
+    font-size: 200%;
+    font-family:"Open Sans";
+    font-weight: 300;
+    color: white;
+    margin-bottom: 1%;
+}
+.contact2 p
+{
+    font-family:"Open Sans";
+    font-weight: 300;
+    color: whitesmoke;
+}
+.feel
+{
+    width: 40%;
+    float: left;
+    margin-top: 5%;
+    margin-left: 10%;
+}
+.contact2 .btn
+{
+    float: right;
+    margin-right: 10%;
+    margin-top: 6%;
+}
+
+    
+    
+                  /*       End layer ten (contact)        */
+.about
+{
+    height: 300;
+    background-color:rgb(30,30,30);
+}
+
+
+.about .part
+{
+    margin-right: 2%;
+    width: 18%;
+    float: right;
+    padding-right: 3%;
+}
+.about .align
+{
+    background-color:rgb(30,30,30);
+    margin: 0 auto;
+    width: 100%;
+    padding-top: 5%;
+}
+
+.about .part h2
+{
+    color: white;
+    font-size: 100%;
+    font-family:"Open Sans";
+    font-weight: 300;
+    margin-bottom: 10%;
+}
+.about .part p
+{
+    line-height: 1.3em;
+    color: #58606b;
+}
+    /*       End layer eleven (copyright)        */
+
+
+.copy
+{
+    height: 50;
+    background-color: rgb(25,25,25);
+    padding: 0;
+    margin: 0;
+}
+.copy .imgcopy
+{
+    float: right;
+    background-color: blue;
+    margin: 0;
+    padding: 0;
+    height: 50;
+    width: 250;
+}
+
+.copy .copyright
+{
+    height: 30;
+    width: 20%;
+    display: inline-block;
+    padding-top: 15;
+    padding-left: 140;
+    color: #58606b;
+    font-size: 90%;
+    
+}
+.copy .imgcopy img
+{
+    height: 100%;
+}
+
